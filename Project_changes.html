@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="Project.css">
+ 
+</head>
+
+<body>
+    <header style="padding-bottom: 0;">
+
+        <div class="headerDiv" onmouseenter="color_change1()" onmouseleave="color_BackChange1()">
+            <h1 id="change_color1">
+                SPORTS WEBSITE
+            </h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="Project_changes.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="PointTable.html">Point Table</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <hr style="margin-bottom: 0;">
+    </header>
+
+    <main>
+        <!-- This Div is for Banner data -->
+        <div class="img_background" >
+
+            <div class="banner_content">
+                <h1>
+                    FOOTBALL
+                </h1>
+                <p>
+                    "Welcome to the Ultimate Football Hub, where you can catch every goal, every moment, and every game! Stay updated with the latest scores, news, and in-depth analysis of your favorite teams and players.
+                   
+                </p>
+                <button class="btn-banner" onclick="first()">Read More</button>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- This div is for Stats data -->
+        <div style=" color: white;background-color:white;">
+            <div class="statsDiv">
+                <div class="tabs">
+                    <h5 style="color: black;font-size: 20px">Club Rankings</h5>
+                    <div class="tabBg">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td>1</td>
+                                <td style="width: 70%;">Manchester City</td>
+                                <td>FIRST</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td style="width: 70%;">Bayern Munich</td>
+                                <td>SECOND</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="width: 70%;">Real Madrid</td>
+                                <td>THIRD</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td style="width: 70%;">Barcelona</td>
+                                <td>FORTH</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <h5 style="color: black; font-size: 20px;">Top Players</h5>
+                    <div class="tabBg">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td>1</td>
+                                <td style="width: 70%;">Messi</td>
+                                <td>94</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td style="width: 70%;">Ronaldo</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="width: 70%;">Naymer jr.</td>
+                                <td>89</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td style="width: 70%;">Kylian Mbappe</td>
+                                <td>86</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="RecentNews">
+            <div> 
+                <h3 style="text-align: center;margin: 0;">
+                   FIFA
+               </h3>
+               <div class="img">
+                    <div class="img-part">                    
+                        <img src="FIFATROPHY.jpg" alt="cricket" class="cricketPic">
+                    </div>
+                    <div class="content-part">
+                        <h5 class="img_text">
+                          <u> INFORMATION </u> 
+                            <p>The governing body of world football, FIFA unites nations through the love of the game, organizing iconic tournaments like the FIFA World Cup that inspire billions globally.</p>
+                       </h5> 
+                    </div>
+                </div>
+            </div>
+      </div>
+<!-- Same As above-->
+
+    <div class="RecentNews" style="background-color: white;margin: 0;">
+        <div> 
+           <h3 style="text-align: center;">
+            PREMIER LEAGUE
+           </h3>
+            <div class="img">
+                <div class="content-part">
+                    <h5 class="img_text">
+                        <u>INFORMATION</u>
+                        <p>The most-watched football league in the world, the English Premier League captivates fans with its high-intensity matches, iconic clubs, and legendary players.</p>
+                    </h5> 
+                </div>
+                <div class="img-part">                    
+                    <img src="PREMIER.jpg" alt="cricket" class="cricketPic">
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+  <!-- same as above -->
+
+<div class="RecentNews" style="margin: 0;">
+    <div> 
+        <h3 style="text-align: center;">
+            LA LIGA
+        </h3>
+        <div class="img">
+            <div class="img-part">                    
+                <img src="laliga.png" alt="cricket" class="cricketPic">
+            </div>
+            <div class="content-part">
+                <h5 class="img_text">
+                    <u>INFORMATION</u>
+                    <p>Spain's top-tier football league, renowned for its technical brilliance and passionate rivalries, featuring iconic clubs like Real Madrid and Barcelona. It is a stage where legends are made and the beautiful game shines at its finest.</p>
+                </h5> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--Famous FootBall Players-->
+<div class="PlayerOuter">
+   <div class="players">
+    <h5 id="famous_players"> <i>Famous Players </i></h5>
+    <hr>
+    <div class="player-inner">
+        <div class="card">
+            <img id="card-img" src="messi.jpg" alt="Image" class="card-img" onmouseenter="second()" onmouseleave="secondLeave()">
+
+            <div class="card-body">
+                <h2 class="card-title">Lionel Messi</h2>
+                <p class="card-text">Lionel Messi: A maestro on the field, whose magic inspires millions and redefines the beautiful game.</p>
+            </div>
+
+        </div> 
+        <div class="card">
+            <img src="ronaldo.jpg" alt="Image" class="card-img" id="card-img1" onmouseenter="third()" onmouseleave="thirdLeave()">
+
+            <div class="card-body">
+                <h2 class="card-title">Cristiano Ronaldo</h2>
+                <p class="card-text">A flair-driven genius, dazzling the world with his artistry and passion for the game.</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img id="card-img2" src="naymer4.jpg" alt="Image" class="card-img" onmouseenter="forth()" onmouseleave="forthLeave()">
+
+            <div class="card-body">
+                <h2 class="card-title">Neymar Jr.</h2>
+                <p class="card-text">A relentless force of determination and excellence, setting new standards in the pursuit of greatness.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="player-inner">
+         
+    </div>
+
+   </div>
+
+</div>
+
+
+<!--Footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>
+                Welcome to our Sports Website, your one-stop destination for all sports updates, news, 
+                and live results. Stay connected to the action with us and never miss out on the thrill of the game.
+            </p>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="Project_changes.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="PointTable.html">Point Table</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <!-- Contact Section -->
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: bsdsf24m056@pucit.edu.pk</p>
+            <p>Phone: +92-300-9223454</p>
+            <p>Address: Street#6 Clock Tower Faisalabad.</p>
+        </div>
+        
+        <!-- Social Media -->
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://pk.linkedin.com/">LinkedIn</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <hr>
+        <p> 2024 Sports Website. All rights reserved. Designed with passion for sports.</p>
+    </div>
+</div>
+
+
+    </main>
+<script src="JAVA.js"></script>
+
+</body>
+
+</html>
